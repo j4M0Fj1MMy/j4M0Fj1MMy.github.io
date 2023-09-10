@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Type inference with a Transformer model
+description: predict variable type and name in stripped binary decompilation, with a encoder-decoder learning approach. 
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+# related_publications: einstein1956investigations, einstein1950meaning
 ---
+
+This project study the generalizability of an open-sourced model Dirty from an academic paper. 
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
