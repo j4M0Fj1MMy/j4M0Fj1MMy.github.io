@@ -1,47 +1,85 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Dual Player Tetrix
+description: A dual player Tetrix Cosole !
+img: assets/img/3.jpg
+# redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
+Components of the project:
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    controller
+    front-end and back-end of Tetris
+    background music
     ---
 
+Design of the controller:
+    ---
+    2-axis joystick:
+        upward: rotate clockwise
+        downward: slow drop
+    blue: rotate clockwise
+    red: rotate anticlockwise
+    black: hard drop
+    yellow: hold
+    ---
+
+Design of the Front end:
+    ---
+    Since the refesh rate of the monitor is not very high,
+    only the moving object is updated in each loop,
+    this gives a much faster response time.
+    ---
+
+Design of the timer:
+    ---
+    set up an interrupt of 1ms delay,
+    this interrupt act as the clock of the whole system,
+    which allow us to regulate the game and music.
+    ---
+
+Design of the music generation:
+    ---
+    calculate the required frequency of each note,
+    store the pre-scaler into a matrix,
+    generate a sine wave to DAC analog output,
+    connect to a speaker
+    ---
+
+Design of multi-player mode:
+    ---
+    By using USART protocol, we created a non-blocking, 
+    asynchronous communication channel between the 2 machines,
+    each player then send and receive messages by simply reading 8 bit,
+    this is super fast and convenient to implement and use ! 
+    ---
+
+Gallery:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/tetrix/tetrisnotes.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/tetrix/controller.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/tetrix/frontend.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    components
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tetrix/icon.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    multiplayer!
 </div>
 
 You can also put regular text between your rows of images.
