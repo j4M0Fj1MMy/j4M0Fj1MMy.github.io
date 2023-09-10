@@ -9,6 +9,7 @@ category: work
 ---
 
 Components of the project:
+
     ---
     controller
     front-end and back-end of Tetris
@@ -16,6 +17,7 @@ Components of the project:
     ---
 
 Design of the controller:
+
     ---
     2-axis joystick:
         upward: rotate clockwise
@@ -27,6 +29,7 @@ Design of the controller:
     ---
 
 Design of the Front end:
+
     ---
     Since the refesh rate of the monitor is not very high,
     only the moving object is updated in each loop,
@@ -34,6 +37,7 @@ Design of the Front end:
     ---
 
 Design of the timer:
+
     ---
     set up an interrupt of 1ms delay,
     this interrupt act as the clock of the whole system,
@@ -41,6 +45,7 @@ Design of the timer:
     ---
 
 Design of the music generation:
+
     ---
     calculate the required frequency of each note,
     store the pre-scaler into a matrix,
@@ -49,6 +54,7 @@ Design of the music generation:
     ---
 
 Design of multi-player mode:
+
     ---
     By using USART protocol, we created a non-blocking, 
     asynchronous communication channel between the 2 machines,
