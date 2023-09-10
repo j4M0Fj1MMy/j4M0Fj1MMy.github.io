@@ -30,6 +30,15 @@ words, ‘woke’ the sensor ‘up’. The data of that particular chip was outp
 to be further processed. In our implementation, the sampling rate of the data is approximately 
 40Hz which is high enough to display details of each gesture.  
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gloves/multiplex.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    showcasing the multiplexing connection
+</div>
+
 ### Segmentation of a sequence of gestures
 To break a sequence of gestures into separate gestures for our model to handle one by one, we 
 applied a sliding window algorithm. Inside each window, the variance of each column of data 
@@ -43,7 +52,7 @@ breakpoint.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gloves/signal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gloves/signal.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
