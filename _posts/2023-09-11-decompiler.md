@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decompiler
-date: 2023-09-11 22:39:00
+date: 2023-09-11 22:39:00-0400
 description: some errors I encountered during the development stage
 tags: decompiler
 categories: program-analysis
