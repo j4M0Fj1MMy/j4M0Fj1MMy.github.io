@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Decompiler
-date: 2023-09-11 22:39:00-0400
+date: 2023-08-04 08:57:00-0400
 description: some errors I encountered during the development stage
-tags: decompiler
+tags: binary
 categories: sample-posts
 giscus_comments: true
 related_posts: false
-related_publications: einstein1950meaning
+# related_publications: einstein1950meaning
 ---
 # A no go-to decompilation of llvm IR
 

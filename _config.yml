@@ -124,7 +124,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name:  # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: work projects # your blog must have a title for it to be displayed in the nav bar
 blog_description: some write-ups about my research
 permalink: /blog/:year/:title/
 
@@ -265,7 +265,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['decompiler', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
+display_tags: ['binary', 'ML', 'data', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

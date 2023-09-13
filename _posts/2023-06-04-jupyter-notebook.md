@@ -1,9 +1,9 @@
 ---
 layout: post
-title: a post with jupyter notebook
-date: 2023-07-04 08:57:00-0400
-description: an example of a blog post with jupyter notebook
-tags: formatting jupyter
+title: new Chinese generation AI
+date: 2023-06-04
+description: a generative model that generate new Chinese word
+tags: ML
 categories: sample-posts
 giscus_comments: true
 related_posts: false
