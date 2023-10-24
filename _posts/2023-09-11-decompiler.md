@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decompiler
-date: 2023-08-04 08:57:00-0400
+date: 2023-09-04
 description: some errors I encountered during the development stage
 tags: binary
 categories: sample-posts

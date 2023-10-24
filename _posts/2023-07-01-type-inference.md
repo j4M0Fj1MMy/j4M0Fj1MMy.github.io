@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Type Inference
-date: 2023-08-04
+date: 2023-07-15
 description: a autoencoder approach in recovering lost variable type information
 tags: binary
 categories: sample-posts
