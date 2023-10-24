@@ -10,6 +10,13 @@ related_posts: false
 # related_publications: einstein1950meaning
 ---
 
-type prediction base on machine learning approach
+This is an experiment on variable type prediction base on a autoencoder model approach 
 
 ### Treating code as a language
+> If we treat code as a language, then we can use large language model to model the problem and therefore make prediction base on patterns. Indeed, there are research stating that code does have the property of our languages. 
+
+### Decompiler of choice
+> The author of the original paper was doing their research with IDA. While other decopmilers are also possible, they found that Ghidra is not very good at the decompilation, which confuese the learning process and made poor results. 
+
+### Other research
+> Another paper points out that the problem of Ghidra can be solved with an stright-forward workaround. And they claimed that using Ghidra as a decompilation tool also provides similar result.
