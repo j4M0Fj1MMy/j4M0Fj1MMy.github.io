@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Generative autoregressive model on Calligraphy generation
-description: generate a new Chinese Calligraphy, pixel by pixel.
+title: Generative model for Calligraphy
+description: generate a new Chinese Calligraphy with an autoregressive model, pixel by pixel.
 img: assets/img/12.jpg
 importance: 1
 category: work
