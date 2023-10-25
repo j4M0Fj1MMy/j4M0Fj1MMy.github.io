@@ -17,5 +17,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Jimmy is currently a research assistant working under the Prism Research Group in HKUST. Their main research focus is program analysis, which aims to improve program security with both static and dynamic analysis. He is an ex-core member of HKUST Firebird, a Hong Kong Top 2 academic competitive Cybersecurity team. He was also an data engineer in the HKUST sustainability department, focusing on studying the correlation between energy consumption and campus busyness. He started an open-source project that aims to facilitate the data retrieval process from the HKUST api.
+Jimmy is currently a research assistant working under the <b>Prism Research Group</b> in HKUST. Their main research focus is program analysis, which aims to improve program security with both static and dynamic analysis. He is an ex-core member of <b>HKUST Firebird</b>, a Hong Kong Top 2 academic competitive Cybersecurity team. He was also an data engineer in the <b>HKUST sustainability department</b>, focusing on studying the correlation between energy consumption and campus busyness. He started an open-source project that aims to facilitate the data retrieval process from the HKUST api.
 
