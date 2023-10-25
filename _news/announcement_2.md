@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Jimmy joined the cybersecurity lab !
 date: 2023-01-01
-inline: false
+inline: true
 related_posts: false
 ---
+
+Jimmy joined the cybersecurity lab !

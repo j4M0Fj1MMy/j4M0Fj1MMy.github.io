@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Jimmy become a reserach assistant in the cybersecurity lab.
-
