@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2022-05-22 15:59:00-0400
+title: Jimmy joined the Sustainability Team in HKUST !
+date: 2022-05-22
 inline: true
 related_posts: false
 ---
-
-Jimmy joined the Sustainability Team in HKUST !
