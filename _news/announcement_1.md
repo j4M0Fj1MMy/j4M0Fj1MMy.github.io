@@ -32,5 +32,5 @@ My involvement with the Sustainability Team at HKUST provided me with valuable i
 I look forward to continuing my journey in sustainability and exploring ways to make a positive difference through technology and collaborative initiatives.
 
 ## Gallery
-![Alt text](image.png)
-![Alt text](energygraph.png)
+![Alt text](/assets/img/dashboard.png)
+![Alt text](/assets/img/energygraph.png)
