@@ -32,14 +32,19 @@ My involvement with the Sustainability Team at HKUST provided me with valuable i
 I look forward to continuing my journey in sustainability and exploring ways to make a positive difference through technology and collaborative initiatives.
 
 ## Gallery
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/dashboard.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    a real time dashboard
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/energygraph.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    a real-time dashboard, and a interactive graph
+    an interactive graph
 </div>
