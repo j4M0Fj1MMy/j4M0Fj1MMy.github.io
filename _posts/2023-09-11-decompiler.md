@@ -34,8 +34,62 @@ if ((1)) printf("foo");
 printf("foo");
 ```
 
+### How to optimize the Clang AST
+- Declare an ASTVisitor that inherits the `RecursiveASTVisitor`
+- Declare your own `visitxxxx` function that overrides the orginal ones
+- Use the `TraverseDecl` to run those function
+
+```c++
+class MyASTVisitor : public RecursiveASTVisitor<MyASTVisitor>{
+    public:
+        bool VisitStmt(Stmt *s) {
+        ;
+        }
+}
+
+class MyASTConsumer : public ASTConsumer
+{
+    public:
+        MyASTConsumer(): Visitor() {}//initialize MyASTVisitor
+        
+        virtual bool HandleTopLevelDecl(DeclGroupRef DR) {
+            for (DeclGroupRef::iterator b = DR.begin(), e = DR.end(); b != e; ++b) {
+                // Travel each function declaration using MyASTVisitor
+                Visitor.TraverseDecl(*b);
+            }
+            return true;
+        }
+
+    private:
+        MyASTVisitor Visitor;
+};
+```
+
+
 ## Interesting things when decompilation is too good.
 When the decompilation result is too optimized, redundant code can be removed, resulting in a decompiled code that is even simpler than the original source code. This can be an interesting outcome, showcasing the power of optimization techniques employed during the decompilation process.
+```c
+// the source code
+int main() {
+    int i = 0;
+    start:
+    i++;
+    switch(i) {
+        case 1: printf("%d\n", i); goto start; break;
+        case 2: printf("%d\n", i); goto start; break;
+        case 3: printf("%d\n", i); break;
+    }
+}
+```
+```c
+// the optimized decompilation result
+int main(int arg, char **arg3) {
+    printf("%d\n", 1UL);
+    printf("%d\n", 2UL);
+    printf("%d\n", 3UL);
+    return 0UL;
+}
+```
 
 ## Separate function decompilation
 To streamline the decompilation process and eliminate unwanted results, we found it beneficial to decompile each function separately. This approach allows us to focus on individual functions, speeding up the decompilation process and reducing the impact of slow-down caused by nested conditions inside if statements.

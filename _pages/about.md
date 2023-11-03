@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    # Location: <p>Toronto, ON</p>
     # Github: <p>j4m0fj1mmy</p>
 
 news: true  # includes a list of news items
