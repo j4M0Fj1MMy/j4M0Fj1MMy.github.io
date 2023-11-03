@@ -17,12 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am working as a research assistant working under the <b>Prism Research Group</b> in HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a <b>decompiler</b>, a type inference model, and IoT firmware fuzzing framework.
+I am working as a research assistant under the **Prism Research Group** at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
 
-In college , I have been an core member of the <b>HKUST Firebird</b> CTF Team, a Hong Kong Top 2 academic competitive Cybersecurity team. I explored ethical hacking by joining competition. 
+In college, I was a core member of the **HKUST Firebird** CTF Team, which was ranked as one of the top 2 academic competitive Cybersecurity teams in Hong Kong. I explored ethical hacking through participation in weekly training sections and various competitions.
 
-I took 2 internships, including a data engineer role in the <b><a href="https://sust.hkust.edu.hk/about/sustainability-team">HKUST sustainability department</a></b>, and a full-stack developer role in a start-up <a href="https://www.performve.com/">PerformVE</a>.
+I have completed two internships. The first was a data engineer role in the [**HKUST Sustainability Department**](https://sust.hkust.edu.hk/about/sustainability-team), where I focused on data management and analysis for sustainability initiatives. The second internship was as a full-stack developer in a startup called [**PerformVE**](https://www.performve.com/), where I gained experience in web development.
 
-I am still exploring what suit me the best. Therefore, I took the chance to study and experience the knowledge in many different fields, including the area in cybersecurity, machine learning, data analyitcs, web development, Maths. 
-
-
+I am still exploring different fields to determine my best fit. As a result, I have taken the opportunity to study and gain experience in various areas, including cybersecurity, machine learning, data analytics, web development, and mathematics.
