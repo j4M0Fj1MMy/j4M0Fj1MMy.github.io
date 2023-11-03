@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Cybersecurity Researcher
+subtitle: Cybersecurity Researcher, Software developer
 
 profile:
   align: right
