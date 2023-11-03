@@ -8,6 +8,16 @@ category: work
 giscus_comments: true
 ---
 
+# Convolutional Neural Network with IMU-based Gesture-to-Speech Gloves:
+- Operating System: Linux, Android
+- Development Environment: Tensorflow, Numpy
+- Language: Python, shell script
+- Database: Flat folder containing csv data files
+This project, which was my final year project in college, focused on utilizing a convolutional neural network in conjunction with IMU-based gesture-to-speech gloves for sign language classification. The gloves consisted of five sensors and a Raspberry Pi. We utilized Python, along with the TensorFlow and NumPy libraries, for coding on the Linux server and gloves. Additionally, I wrote shell scripts for hardware control, such as managing Bluetooth and sensors. We also developed a control panel
+app using Flutter. Throughout the project, we experimented with various machine learning algorithms, including LSTM, RNN, and KNN, but ultimately chose a simple 1-D convolutional network due to its superior speed.
+
+
+### Introduction 
 Communication plays an important role in society, however, communicating with the 
 hearing-impaired community could be hard because people seldom have exposure to sign 
 language. This project will work on classifying a sequence of gestures from IMU devices, with a proposed extensible
