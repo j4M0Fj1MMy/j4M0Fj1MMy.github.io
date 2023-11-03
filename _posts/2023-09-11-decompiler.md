@@ -15,6 +15,12 @@ related_posts: false
 ## Introduction
 In our reverse engineering lab, we utilize a binary lifter to produce simplified LLVM intermediate representation (IR) from the binary files. This IR serves as a crucial step in understanding the behavior of the program. To enhance the reverse engineering process, we aim to link (decompile) the LLVM IR to C code, allowing us to grasp the program's functionality more quickly. Although the decompilation process may introduce inaccuracies, it is essential to have the ability to refer back to the precise and accurate LLVM IR representation.
 
+My responsibilities included developing, integrating, testing,
+debugging, and maintaining the software to ensure seamless compatibility with the
+binary lifter. I also set up unit test cases, documented files, and conducted thorough
+case studies to evaluate the product's speed, correctness, and handling of crash
+cases.
+
 ## AST Generation
 To achieve the decompilation of LLVM IR to C, we leverage the Clang and LLVM APIs to load the Abstract Syntax Tree (AST) of the LLVM IR. It will then be transformed to the Clang AST. All subsequent simplification processes and transformations will be performed on the Clang AST.
 
@@ -26,7 +32,7 @@ Throughout the decompilation process, we faced several challenges that required 
 
 ### Refinement of the condition inside if and while statement takes a very long time
 One specific challenge we faced involved dealing with the if condition. When such a condition is long, it is hard to simplify the whole condition at once. Decompiling nested conditions inside if statements can significantly slow down the process. We encountered cases where handling complex conditions inside if and while statements took a considerable amount of time to refine and optimize.
-```C
+```c
 bool x = true;
 if ((!0 && x == 1) || (1 && x == 0)) printf("foo");
 if ((x == 1) || (x == 0)) printf("foo");

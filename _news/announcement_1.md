@@ -12,6 +12,11 @@ During my time at HKUST, I had the privilege of joining the esteemed Sustainabil
 
 My primary focus was to investigate how energy usage patterns varied based on the level of campus activity. By analyzing data and conducting research, I aimed to uncover insights that could contribute to sustainable practices and resource optimization on campus.
 
+- Operating System: Windows
+- Development Environment: Power BI
+- Languages: Python, DAX
+- Database: Elastic Search
+
 ### Open-Source Project for Data Retrieval
 
 Even after my departure from the Sustainability Team, I have maintained a strong connection with the team and the cause. Inspired by my experience, I embarked on an open-source project to streamline the data retrieval process from the HKUST API.
@@ -25,3 +30,7 @@ I am excited about the potential impact of this open-source project and how it c
 My involvement with the Sustainability Team at HKUST provided me with valuable insights into the interplay between energy consumption and campus busyness. It also served as the catalyst for my open-source project, which aims to facilitate data retrieval from the HKUST API.
 
 I look forward to continuing my journey in sustainability and exploring ways to make a positive difference through technology and collaborative initiatives.
+
+## Gallery
+![Alt text](image.png)
+![Alt text](energygraph.png)
