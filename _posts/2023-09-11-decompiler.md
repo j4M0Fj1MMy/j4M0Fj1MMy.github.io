@@ -26,6 +26,13 @@ Throughout the decompilation process, we faced several challenges that required 
 
 ### Refinement of the condition inside if and while statement takes a very long time
 One specific challenge we faced involved dealing with the if condition. When such a condition is long, it is hard to simplify the whole condition at once. Decompiling nested conditions inside if statements can significantly slow down the process. We encountered cases where handling complex conditions inside if and while statements took a considerable amount of time to refine and optimize.
+```C
+bool x = true;
+if ((!0 && x == 1) || (1 && x == 0)) printf("foo");
+if ((x == 1) || (x == 0)) printf("foo");
+if ((1)) printf("foo");
+printf("foo");
+```
 
 ## Interesting things when decompilation is too good.
 When the decompilation result is too optimized, redundant code can be removed, resulting in a decompiled code that is even simpler than the original source code. This can be an interesting outcome, showcasing the power of optimization techniques employed during the decompilation process.
