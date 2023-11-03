@@ -10,21 +10,27 @@ related_posts: false
 # related_publications: einstein1950meaning
 ---
 
-# A no go-to decompilation of llvm IR
->First, the binary was passed to our lab's binary lifter. This produces simplified llvm intermediate representation. To enhance the reverse engineering process, we want to link(decompile) the llvm to C so that we understand the behaviour of the program faster. Even though the decompilation is inaccuarate at some point, we want to still be able to go back and look at the exact accurate llvm. 
+# Decompilation of LLVM IR to C
 
-#### AST generation
->With the clang and llvm API, the AST of the llvm is loaded. All simplification processes will be done on this AST.
+## Introduction
+In our reverse engineering lab, we utilize a binary lifter to produce simplified LLVM intermediate representation (IR) from the binary files. This IR serves as a crucial step in understanding the behavior of the program. To enhance the reverse engineering process, we aim to link (decompile) the LLVM IR to C code, allowing us to grasp the program's functionality more quickly. Although the decompilation process may introduce inaccuracies, it is essential to have the ability to refer back to the precise and accurate LLVM IR representation.
 
-### Optimization
-> Many code simplification techiniques can be applied to make the decompiled code simplier to read. For example, dead code elimination, eliminate equivalent if-else condition, etc...
+## AST Generation
+To achieve the decompilation of LLVM IR to C, we leverage the Clang and LLVM APIs to load the Abstract Syntax Tree (AST) of the LLVM IR. It will then be transformed to the Clang AST. All subsequent simplification processes and transformations will be performed on the Clang AST.
 
-### Severel problems encountered
-#### llvm metadata 
->missing metadata will result in failing checking conditions and crashing the program. So make sure the llvm metadata is provided and accurate. 
+## Optimization
+During the decompilation process, several code simplification techniques are applied to enhance the readability of the decompiled code. These techniques include dead code elimination, elimination of equivalent if-else conditions, and various other optimizations that make the decompiled code more concise and understandable.
 
-#### different bit length of interger literal, (128bit vs 64 bits)
-> Decompiler attempted to upcast a long long into 128 bit, and clang doesn't support it...
+## Challenges Encountered
+Throughout the decompilation process, we faced several challenges that required careful consideration and problem-solving. The following are some of the notable challenges we encountered:
 
-#### Invalid z3 operation
-> some undefined operation are generated in the binary lifting stage
+### Refinement of the condition inside if and while statement takes a very long time
+One specific challenge we faced involved dealing with the if condition. When such a condition is long, it is hard to simplify the whole condition at once. Decompiling nested conditions inside if statements can significantly slow down the process. We encountered cases where handling complex conditions inside if and while statements took a considerable amount of time to refine and optimize.
+
+## Interesting things when decompilation is too good.
+When the decompilation result is too optimized, redundant code can be removed, resulting in a decompiled code that is even simpler than the original source code. This can be an interesting outcome, showcasing the power of optimization techniques employed during the decompilation process.
+
+## Separate function decompilation
+To streamline the decompilation process and eliminate unwanted results, we found it beneficial to decompile each function separately. This approach allows us to focus on individual functions, speeding up the decompilation process and reducing the impact of slow-down caused by nested conditions inside if statements.
+
+Please note that while the decompilation process may introduce some inaccuracies, the availability of the original LLVM IR allows us to refer back to the precise representation when necessary.
