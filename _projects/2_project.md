@@ -75,4 +75,4 @@ Gallery:
 </div>
 
 **Watch a presentation here**  
-{% include video.html path="https://cse.hkust.edu.hk/ug/fyp/posters/gallery/2022-2023/107_CSB2_Media.mp4" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://cse.hkust.edu.hk/ug/fyp/posters/gallery/2022-2023/107_CSB2_Media.mp4" class="img-fluid rounded z-depth-1" controls=true %}
