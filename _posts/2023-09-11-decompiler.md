@@ -4,7 +4,7 @@ title: Decompiler
 date: 2023-09-04
 description: binary -> llvm -> C
 tags: binary
-categories: sample-posts
+categories: 
 giscus_comments: true
 related_posts: false
 # related_publications: einstein1950meaning

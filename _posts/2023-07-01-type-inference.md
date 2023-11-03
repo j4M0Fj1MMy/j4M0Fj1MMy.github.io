@@ -4,7 +4,7 @@ title: Type Inference
 date: 2023-07-1
 description: an autoencoder in recovering lost variable type information
 tags: ML, data
-categories: sample-posts
+categories: 
 giscus_comments: true
 related_posts: false
 # related_publications: einstein1950meaning
