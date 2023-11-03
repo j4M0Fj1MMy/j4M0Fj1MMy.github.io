@@ -74,4 +74,5 @@ Gallery:
     signal of an accelerometer on the gloves, a picture of the prototype
 </div>
 
-**Watch the video [here](https://cse.hkust.edu.hk/ug/fyp/posters/gallery/2022-2023/107_CSB2_Media.mp4)**
+**Watch a presentation here**  
+{% include video.html path="https://cse.hkust.edu.hk/ug/fyp/posters/gallery/2022-2023/107_CSB2_Media.mp4" class="img-fluid rounded z-depth-1" %}
