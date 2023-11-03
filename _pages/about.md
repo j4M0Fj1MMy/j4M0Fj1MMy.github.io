@@ -17,7 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Jimmy is currently a research assistant working under the <b>Prism Research Group</b> in HKUST. Their main research focus is program analysis, which aims to improve program security with both static and dynamic analysis. He is working on <b>decompiler</b> right now.
+I am working as a research assistant working under the <b>Prism Research Group</b> in HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a <b>decompiler</b>, a type inference model, and IoT firmware fuzzing framework.
 
-In his college life, he became an ex-core member of <b>HKUST Firebird</b>, a Hong Kong Top 2 academic competitive Cybersecurity team. This is the first time he got a taste of how ethical hacking is like. At the same time, he became an data engineer intern in the <b><a href="https://sust.hkust.edu.hk/about/sustainability-team">HKUST sustainability department</a></b>, he was focusing on studying the correlation between energy consumption and campus busyness. Even he left the team, he is still connected and he started an open-source project that aims to facilitate the data retrieval process from the HKUST api.
+In college , I have been an core member of the <b>HKUST Firebird</b> CTF Team, a Hong Kong Top 2 academic competitive Cybersecurity team. I explored ethical hacking by joining competition. 
+
+I took 2 internships, including a data engineer role in the <b><a href="https://sust.hkust.edu.hk/about/sustainability-team">HKUST sustainability department</a></b>, and a full-stack developer role in a start-up <a href="https://www.performve.com/">PerformVE</a>.
+
+I am still exploring what suit me the best. Therefore, I took the chance to study and experience the knowledge in many different fields, including the area in cybersecurity, machine learning, data analyitcs, web development, Maths. 
+
 
