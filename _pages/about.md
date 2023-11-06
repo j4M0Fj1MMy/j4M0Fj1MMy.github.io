@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am working as a research assistant under the `Prism Research Group` at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
+I am working as a research assistant under the `Cybersecurity Lab` at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
 
 In college, I was a core member of the `HKUST Firebird` CTF Team, which was ranked as one of the top 2 academic competitive Cybersecurity teams in Hong Kong. I explored ethical hacking through participation in weekly training sections and various competitions.
 
