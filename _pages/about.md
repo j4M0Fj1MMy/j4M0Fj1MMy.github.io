@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi there! This is a little place of Jimmy. I love to write about my `life`, `experience`, `philosophy`, my everything! Be sure to check them out if you want to know more about me!
+Hi there! This is a little place of Jimmy. I love to write about my `life`, `experience`, `philosophy`, my everything! Be sure to check them out if you want to know more about me! Below is my biography if you are interested!
 
 I worked as a research assistant under the `Cybersecurity Lab` at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
 
