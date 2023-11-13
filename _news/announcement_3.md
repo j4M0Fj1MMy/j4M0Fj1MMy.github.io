@@ -39,3 +39,24 @@ I stayed at an Airbnb for the first few days. The neighbourhood is really good. 
 <div class="caption">
     
 </div>
+
+## My new home
+
+Photos worth a thousand words! It is awesome!
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/newplace.jpg" title="group pic" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I am a pretty minimal guy...
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/newplaceview.jpg" title="group pic" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This is what I am for...
+</div>
