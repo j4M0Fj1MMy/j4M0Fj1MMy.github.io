@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Cybersecurity Researcher, Software developer
+subtitle: Cybersecurity Practitioner, Software developer
 
 profile:
   align: right
@@ -18,7 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am working as a research assistant under the `Cybersecurity Lab` at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
+Hi there! This is the private area of Jimmy. I love to write about my `life`, my `experience`, my `philosophy`, my everything! Be sure to check them out if you want to know more about me!
+
+I worked as a research assistant under the `Cybersecurity Lab` at HKUST. Our main research focus is program analysis, which aims to improve program security with both static and dynamic analysis techniques. I have worked on a decompiler, a type inference model, and an IoT firmware fuzzing framework.
 
 In college, I was a core member of the `HKUST Firebird` CTF Team, which was ranked as one of the top 2 academic competitive Cybersecurity teams in Hong Kong. I explored ethical hacking through participation in weekly training sections and various competitions.
 
