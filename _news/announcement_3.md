@@ -26,7 +26,7 @@ related_posts: false
     Epic photo!
 </div>
 
-> I stayed at an Airbnb for the first few days. The neighbourhood is really good. I really like walking around because everything is so pretty and chill. The host is awesome! He drove me to IKEA to pick-up some furniture and he also helped me carry it to my new place! He even gave me a table! A really good AirBnb experience !
+I stayed at an Airbnb for the first few days. The neighbourhood is really good. I really like walking around because everything is so pretty and chill. The host is awesome! He drove me to IKEA to pick-up some furniture and he also helped me carry it to my new place! He even gave me a table! A really good AirBnb experience !
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -37,5 +37,5 @@ related_posts: false
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    
 </div>
