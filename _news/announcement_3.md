@@ -13,3 +13,29 @@ related_posts: false
 ## Canada: My Chosen Destination
 
 > Canada, known for its cold climate, became my chosen destination. I have always been drawn to colder regions, and Canada's weather aligns with my preferences. Additionally, I have a fondness for maple and cherry blossom, which are synonymous with the country. Considering my interest lies in the IT field, Canada stood out as one of the best places to build a successful IT career.
+
+## The real move
+
+> It is always easier to feel the difference when you have lost something...
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/grouppic.jpg" title="group pic" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Epic photo!
+</div>
+
+> I stayed at an Airbnb for the first few days. The neighbourhood is really good. I really like walking around because everything is so pretty and chill. The host is awesome! He drove me to IKEA to pick-up some furniture and he also helped me carry it to my new place! He even gave me a table! A really good AirBnb experience !
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/street.jpg" title="street" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/room.jpg" title="room" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
