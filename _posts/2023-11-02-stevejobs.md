@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Think about dying tomorrow
+title: Thinking about dying tomorrow
 date: 2023-11-02
-description: steve jobss word
+description: steve jobs' word
 tags: philosophy
 categories: 
 giscus_comments: true
 related_posts: false
 # related_publications: einstein1950meaning
 ---
-# This is the thought I had when I feel powerless
 
-## Think about dying tmr, will the thing you are doing right now makes you regret?
+## Thinking about dying tmr, will the thing you are doing right now makes you regret?
 
-Of course, if I were to think about dying tomorrow, the things I am doing right now would definitely make me regret. Most of the things I can do at this moment are focused on securing my future. I wouldn't be able to live with myself if I didn't take action.
+Of course, if I think about dying tomorrow, the things I am doing right now would definitely make me regret. Most of the things I can do at this moment are focused on securing my future. I wouldn't be able to live if I didn't.
 
-The major difference between me and him is that he is rich. He has the means to do whatever he wants. Yet, his words are still inspiring.
+Steve Jobs was successful and rich at the moment he thought about this topic. His investment of time when he was young yield this result. Therefore, he has the means to do whatever he wants. Yet, his words are still inspiring.
 
 ## I would understand it as: we are on the road of death, did you treasure yesterdaty, today, and how about tomorrow?
 
@@ -25,9 +24,7 @@ There are times when, even after 20 years, you can still describe exactly what h
 
 For a good day, you must be able to discern how good it is. Even for a bad day, you can gauge its level of unpleasantness. What you cannot discern is the day that you have forgotten. Therefore, to have many good days, you need to remember a lot of days.
 
-Collectively, good days make up a good life—a life in which you can share with others the excitement, touching moments, and resilience you've experienced.
-
-Let's not settle for an okay life; instead, let's strive for a good life."
+Collectively, good days make up a good life—a life in which you can share with others the excitement, touching moments, and resilience you've experienced. Therefore, let's not settle for an okay life; instead, let's strive for a good life.
 
 # Conclusion
 Exploring new and exciting things, cherishing precious moments, and being able to remember the smallest joys in life are the ingredients for a good life. By constantly seeking out new experiences, embracing the memorable moments, and holding onto the excitement they bring, we can create a life that is fulfilling and meaningful. It is through these endeavors that we discover what truly brings us happiness and fulfillment. So, let's continue to explore, cherish, and remember the joys that life offers, as they are the building blocks of a truly good life.
