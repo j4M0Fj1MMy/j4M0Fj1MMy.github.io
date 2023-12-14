@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Cybersecurity Practitioner, Software developer
+subtitle: 
 
 profile:
   align: right

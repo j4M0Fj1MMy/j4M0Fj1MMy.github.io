@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Thinking about dying tomorrow
+title: steve jobs' words -- Thinking about dying tomorrow
 date: 2023-11-02
-description: steve jobs' word
+description: Thoughts about steve jobs' word
 tags: philosophy
 categories: 
 giscus_comments: true
