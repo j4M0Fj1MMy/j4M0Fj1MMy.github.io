@@ -26,7 +26,6 @@ For a good day, you must be able to discern how good it is. Even for a bad day, 
 
 Collectively, good days make up a good life—a life in which you can share with others the excitement, touching moments, and resilience you've experienced. Therefore, let's not settle for an okay life; instead, let's strive for a good life.
 
-# Conclusion
 Exploring new and exciting things, cherishing precious moments, and being able to remember the smallest joys in life are the ingredients for a good life. By constantly seeking out new experiences, embracing the memorable moments, and holding onto the excitement they bring, we can create a life that is fulfilling and meaningful. It is through these endeavors that we discover what truly brings us happiness and fulfillment. So, let's continue to explore, cherish, and remember the joys that life offers, as they are the building blocks of a truly good life.
 
 <div class="row">
@@ -35,7 +34,7 @@ Exploring new and exciting things, cherishing precious moments, and being able t
     </div>
 </div>
 <div class="caption">
-    I chose to catch more breath-taking moment !
+    <!-- I chose to catch more breath-taking moment ! -->
 </div>
 
 <div class="row">
@@ -44,5 +43,5 @@ Exploring new and exciting things, cherishing precious moments, and being able t
     </div>
 </div>
 <div class="caption">
-    I look absolutely awesome !
+    <!-- I look absolutely awesome ! -->
 </div>
