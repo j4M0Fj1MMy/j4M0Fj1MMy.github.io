@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calligraphy Generative model 
+title: Calligraphy Generation
 description: an autoregressive model, pixel by pixel.
 img: assets/img/12.jpg
 importance: 1
