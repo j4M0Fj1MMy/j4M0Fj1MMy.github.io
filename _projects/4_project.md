@@ -1,15 +1,11 @@
 ---
 layout: page
-title: HKUST API helper
-description: a project that facilitate data analysis
+title: Hassle-free API Helper
+description: collects data on behalf of you
 img: assets/img/1.jpg
 importance: 3
 category: fun
 ---
-
-# Hassle-free API Helper
-
-**Description:** A Website that collects data on behalf of you
 
 **Development Stack:** Flask, RESTful API, GCP 
 
@@ -17,8 +13,9 @@ category: fun
 
 Before data analytics, one must first get the data. However, what if the API does not provide documentation? Then you will need to recon, trail and error, which cost a lot of time. Writing the scripts that query the data over a time period can be tricky. but the data analysis interns only have very limited time. If all of them need to figure it out again and again, it will be a total waste of time and at the time they figured everything out, they internship is already close to the end. This project aims to skip the aforementioned process and let the analysts do their job right at the beginning.
 
-By providing simple parameter, you can get most things you want already! Althouh I cannot give you the website due to close-sourced data, I can show you some pictures of the flow!
+Just provide your interested parameters, and get most things you want already! Althouh I cannot give you the website due to the close-sourced data, I can show you some pictures of the flow!
 
+**Flow:**
 First, select the branch you want to work with.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
