@@ -5,13 +5,10 @@ description: A Smart gloves that translate sign language into voice.
 img: assets/img/1.jpg
 importance: 2
 category: work
-children:
-    - title: paper
-    newtab: true
-    permalink: /assets/pdf/fyp_finalreport.pdf
 ---
 
-**Convolutional Neural Network with IMU-based Gesture-to-Speech Gloves**
+[**Convolutional Neural Network with IMU-based Gesture-to-Speech Gloves**](/assets/pdf/fyp_finalreport.pdf)
+
 - **Operating System:** Linux, Android
 - **Development Environment:** Tensorflow, Numpy
 - **Language:** Python, shell script
