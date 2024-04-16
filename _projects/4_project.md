@@ -2,7 +2,7 @@
 layout: page
 title: Hassle-free API Helper
 description: collects data on behalf of you
-img: assets/img/1.jpg
+img: assets/img/api_demo/3.png
 importance: 3
 category: fun
 ---
