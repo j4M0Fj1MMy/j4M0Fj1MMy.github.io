@@ -8,8 +8,7 @@ importance: 3
 category: project
 ---
 
-<!-- {% include video.html path="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/view?usp=sharing" class="img-fluid rounded z-depth-1" controls=true %} -->
-<iframe class="img-fluid rounded z-depth-1" controls=true src="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/preview" allow="autoplay"></iframe>
+{% include video.html path="https://www.youtube.com/watch?v=6Yslp2cjJjU" class="img-fluid rounded z-depth-1" controls=true %}
 
 - **Microcontrollers:** STM32
 - **Language:** C
