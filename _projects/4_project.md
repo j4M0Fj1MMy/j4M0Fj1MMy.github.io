@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hassle-free API Helper
-description: Your friend that collects data on behalf of you.
+description: Your friend that collects data on behalf of you
 img: assets/img/api_demo/3.png
 importance: 3
 category: project

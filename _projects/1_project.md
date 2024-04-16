@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calligraphy Generation
-description: An Autoregressive Generative Model, pixel by pixel.
+description: An Autoregressive Generative Model, pixel by pixel
 img: assets/img/calligraphy.jpg
 importance: 1
 category: project
