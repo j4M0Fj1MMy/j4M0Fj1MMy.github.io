@@ -9,7 +9,7 @@ category: project
 ---
 
 <!-- {% include video.html path="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/view?usp=sharing" class="img-fluid rounded z-depth-1" controls=true %} -->
-<iframe class="img-fluid rounded z-depth-1" controls=true src="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe class="img-fluid rounded z-depth-1" controls=true src="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/preview" allow="autoplay"></iframe>
 
 - **Microcontrollers:** STM32
 - **Language:** C
