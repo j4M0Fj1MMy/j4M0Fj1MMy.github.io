@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gesture-To-Speech Gloves
-description: A Smart gloves that translate sign language into voice.
+description: A Smart Gloves that translate sign language into voice.
 img: assets/img/gloves/signal.png
 importance: 2
 category: project

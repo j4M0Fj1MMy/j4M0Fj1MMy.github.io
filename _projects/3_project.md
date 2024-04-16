@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dual Player Tetrix
-description: A Tetrix Cosole built from scratch
+description: A Multiplayer Tetrix Console built from scratch
 img: assets/img/tetrix/frontend.png
 # redirect: https://unsplash.com
 importance: 3
