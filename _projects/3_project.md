@@ -8,7 +8,9 @@ importance: 3
 category: project
 ---
 
-{% include video.html path="https://www.youtube.com/watch?v=6Yslp2cjJjU" class="img-fluid rounded z-depth-1" controls=true %}
+<!-- {% include video.html path="https://www.youtube.com/watch?v=6Yslp2cjJjU" class="img-fluid rounded z-depth-1" controls=true %}
+ -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Yslp2cjJjU?si=ccvOc2JS918bbd_m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - **Microcontrollers:** STM32
 - **Language:** C
