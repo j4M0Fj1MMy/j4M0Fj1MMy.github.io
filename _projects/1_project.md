@@ -4,7 +4,7 @@ title: Calligraphy Generation
 description: an autoregressive model, pixel by pixel.
 img: assets/img/calligraphy.jpg
 importance: 1
-category: projects
+category: project
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
 

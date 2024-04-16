@@ -4,7 +4,7 @@ title: Hassle-free API Helper
 description: collects data on behalf of you
 img: assets/img/api_demo/3.png
 importance: 3
-category: fun
+category: project
 ---
 
 **Development Stack:** Flask, RESTful API, GCP 

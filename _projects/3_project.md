@@ -5,7 +5,7 @@ description: A Tetrix Cosole built from scratch
 img: assets/img/tetrix/frontend.png
 # redirect: https://unsplash.com
 importance: 3
-category: work
+category: project
 ---
 
 {% include video.html path="https://drive.google.com/file/d/1a-XYjCfz_WJGprS4lfjAZl6kcqQxQYRz/view?usp=sharing" class="img-fluid rounded z-depth-1" controls=true %}

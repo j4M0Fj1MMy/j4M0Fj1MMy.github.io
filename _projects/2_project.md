@@ -4,7 +4,7 @@ title: Gesture-To-Speech Gloves
 description: A Smart gloves that translate sign language into voice.
 img: assets/img/gloves/signal.png
 importance: 2
-category: work
+category: project
 ---
 
 {% include video.html path="https://cse.hkust.edu.hk/ug/fyp/posters/gallery/2022-2023/107_CSB2_Media.mp4" class="img-fluid rounded z-depth-1" controls=true %}
