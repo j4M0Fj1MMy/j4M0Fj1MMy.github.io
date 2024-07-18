@@ -19,3 +19,4 @@ category: project
 [https://gpu-value-tracking.nn.r.appspot.com/](https://gpu-value-tracking.nn.r.appspot.com/) Take a few seconds for GCP to spin up an instance
 
 My genuine passion for hardware. I have always regarded hardware as more than just components; to me, they are akin to works of art. This passion led me to create a GPU analysis website aimed at tracking real-time GPU prices and comparing performance to assess their value. It is worth noting that I have taken the electricity bill into consideration. This project not only allowed me to apply my technical skills but also enabled me to combine my love for hardware with my expertise in web development.
+
